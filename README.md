@@ -59,21 +59,21 @@ The project structure follows a modular approach, making it easier to manage and
 
 - `src`: Contains the main source code of the application.
   - `components`: Reusable UI components.
-      -Block
-      -Button
-      -Chechbox
-      -Image
-      -Input
-      -Switch
-      -Text
+      - `Block`
+      - `Button`
+      - `Chechbox`
+      - `Image`
+      - `Input`
+      - `Switch`
+      - `Text`
    - `constants`:
-        -dark: Dark theme
-        -light: Light theme
-        -theme: App theme
-        -regex: regular expressions    
-        -types: types declear for components and theme
-           -components: types declearation for components
-           -theme: types declearation for theme
+        - `dark`: Dark theme
+        - `light`: Light theme
+        - `theme`: App theme
+        - `regex`: regular expressions    
+        - `types`: types declear for components and theme
+           - `components`: types declearation for components
+           - `theme`: types declearation for theme
   - `navigation`: Configuration and setup of navigation.
   - `utils`: Utility/helper functions.
 - `assets`: Images, fonts, and other static assets.
