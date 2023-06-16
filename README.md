@@ -83,7 +83,7 @@ Feel free to modify and adapt the structure to suit your project's needs.
 # File doc
 
 ## useData
-- The given file is a TypeScript module that exports a `DataProvider` component and a `useData` custom hook. It also creates a `DataContext` using React's `createContext` for managing and sharing data within the application.
+The given file is a TypeScript module that exports a `DataProvider` component and a `useData` custom hook. It also creates a `DataContext` using React's `createContext` for managing and sharing data within the application.
 
 The purpose of this file is to provide a data management context using React's context API. It includes functionality related to managing a dark mode theme using the `isDark` state, handling the toggling of the dark mode with the `handleIsDark` function, and setting the theme based on the `isDark` state using the `setTheme` function.
 
@@ -96,7 +96,7 @@ This module can be used as a provider component at the top-level of a React Nati
 Feel free to modify and extend this file according to your specific application requirements.
 
 ## useTheme
-The provided file is a TypeScript module that exports a `ThemeProvider` component, a `ThemeContext`, and a custom hook `useTheme`. It is related to theme management in a React application.
+The provided file is a TypeScript module that exports a `ThemeProvider` component, a `ThemeContext`, and a custom hook `useTheme`. 
 
 The `ThemeProvider` component is responsible for providing the theme context to its child components. It receives the `theme` and `setTheme` properties as optional parameters through the `IThemeProvider` interface. By default, it uses the `light` theme from the `../constants/` module. The `setTheme` function is an empty function by default. It wraps the `children` components with the `ThemeContext.Provider` and passes the `theme` and `setTheme` values through the context.
 
@@ -111,8 +111,6 @@ Feel free to modify and expand upon this module according to your specific appli
 
 Contributions are welcome! If you find any issues or would like to suggest improvements, please open an issue or submit a pull request.
 
-Please make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) when contributing to this project.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -125,6 +123,6 @@ This starter kit was inspired by the awesome work of the React Native and TypeSc
 
 If you have any questions, feel free to reach out to the project maintainers:
 
-- Maintainer: [Your Name](mailto:your-email@example.com)
+- Maintainer: [deginmulbah](mailto:jenkinsmulbah6@gmail.com)
 
 Thank you for using the React Native TypeScript Starter! Happy coding!
